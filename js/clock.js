@@ -11,4 +11,4 @@ function getClock(){
 }
 
 getClock(); //웹사이트 로드하자마자 clock 호출
-setInterval(getClock, 1000); // 1초마다 clock 호출
+setInterval(getClock, 1000); // ms단위, 1초마다 clock 호출, 실시간으로 보이게 하는 부분
